@@ -1,0 +1,29 @@
+.container {
+    width: 1260px;
+    margin: auto;
+    padding-top: 100px;
+ }
+
+ .piano {
+    display: flex;
+    justify-content: center;
+ }
+
+ .piano_nota {
+    width: 100px;
+    text-align: center;
+    padding: 40px 0 400px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    margin-right: 5px;
+ }
+ .red {
+    background-color: red;
+ }
+
+ .scale {
+    transform: scale(0.95);
+ }

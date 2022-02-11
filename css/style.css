@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+li {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/*this section makes the piano white-black colored*/
+
+/* li:nth-child(1),
+:nth-child(3),
+:nth-child(5),
+:nth-child(7) {
+  background-color: black;
+  color: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: all 0.5s;
+  cursor: pointer;
+} */
+li:hover {
+  transform: scale(0.98);
+  transition: opacity 0.5s;
+}
+::selection {
+  background-color: black;
+  color: white;
+}
+#btn{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+}
+.button{
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+}
+.button:hover{
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.2);
+    transform: scale(.9);
+}
